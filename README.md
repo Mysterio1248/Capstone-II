@@ -19,13 +19,21 @@ This project leverages a comprehensive dataset containing key economic and finan
 The dataset provides insights into the economic health of nine major economies—Australia, Canada, China, Europe, Japan, New Zealand, Switzerland, the United Kingdom, and the United States. It includes features like:
 
 - Manufacturing PMI: Economic health of manufacturing.
+
 - Services PMI: Economic health of services.
+
 - Consumer Confidence: Consumer sentiment and optimism.
+
 - Interest Rates: Central bank's monetary policy.
+
 - CPI YoY: Year-over-year inflation data.
+
 - Core CPI: Inflation excluding volatile items.
+
 - Unemployment Rate: Labor market health.
+
 - GDP YoY: Economic output growth.
+
 - Stock Prices: Open, High, Low, and Close prices of respective assets.
 
 ## Models Used
@@ -50,10 +58,30 @@ The dataset provides insights into the economic health of nine major economies�
 
 ## Installation & Usage
 
+- Install Weka:
+
+Download and install Weka from the official site: [Download Weka here](https://www.cs.waikato.ac.nz/ml/weka/downloading.html).
+
+After installing, you can use Weka's GUI or command-line interface for model training and evaluation.
+
+- Run the Jupyter Notebook:
+
+Open the Capstone-II.ipynb Jupyter notebook to train models and visualize predictions.
+
+You can use the provided .arff or .csv files to import data and evaluate the model for the Weka part.
+
+## Weka Instructions:
+
+- After setting up Weka, open the software and load the dataset in .arff format (convert CSV to ARFF if needed).
+
+- Select the classification or regression models (e.g., J48, RandomForest) and run the analysis.(based on your project requirements/goals)
+
+- You can also use Weka’s built-in feature selection and data preprocessing tools as per your needs.
+
 - Clone the repository to your local machine.
 
 - Install dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 - Run the Jupyter Notebook or Weka to train models and visualize predictions.
 
