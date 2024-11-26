@@ -1,5 +1,3 @@
-# Capstone-II
-
 # Analyzing Macroeconomic Data for Predicting Future Economic Trends Using WEKA
 
 ## Project Overview
