@@ -1,18 +1,20 @@
 # Capstone-II
 
-# Stock Market Prediction: Analyzing Economic Data for Trends
+# Analyzing Macroeconomic Data for Predicting Future Economic Trends Using WEKA
 
 ## Project Overview
 
-This project leverages a comprehensive dataset containing key economic and financial indicators for nine major economies, from the onset of the COVID-19 pandemic through early 2024. The goal is to predict stock market trends based on economic factors such as manufacturing, consumer sentiment, interest rates, inflation, unemployment, and GDP growth. Various machine learning models, including Random Forest, Decision Trees, SVM, and Gradient Boosting, have been implemented to evaluate and predict stock market performance.
+This project utilizes a comprehensive dataset containing key macroeconomic indicators from multiple economies to predict future economic trends. The dataset spans from the onset of the COVID-19 pandemic to early 2024 and includes various economic factors such as GDP growth, unemployment rates, consumer sentiment, inflation, interest rates, and stock market data. We employ WEKA, a popular data mining tool, to apply various machine learning models and extract valuable insights from this data.
+
+The goal of this project is to demonstrate how macroeconomic data can be analyzed to predict future economic outcomes using machine learning techniques..
 
 ## Objective
 
--> Predict stock market trends using macroeconomic and financial data.
+-> Predict future economic trends using macroeconomic indicators.
 
--> Evaluate multiple machine learning algorithms to identify the most accurate model for predicting market movements.
+-> Evaluate machine learning algorithms to determine the most accurate models for forecasting economic trends.
 
--> Leverage Weka for data mining and model training, while implementing Python for data pre-processing and machine learning tasks.
+-> Leverage WEKA for the data mining process, including model training and evaluation
 
 ## Dataset Description
 
@@ -36,6 +38,10 @@ The dataset provides insights into the economic health of nine major economiesâ€
 
 - Stock Prices: Open, High, Low, and Close prices of respective assets.
 
+## Note: 
+
+- While stock prices (Close) are used as a target variable in our project models, this approach can be generalized to predict various other economic outcomes, including consumer confidence or unemployment rates, depending on the focus of the analysis.
+
 ## Models Used
 
 -> Random Forest
@@ -44,7 +50,7 @@ The dataset provides insights into the economic health of nine major economiesâ€
 
 -> Support Vector Machines (SVM)
 
--> Gradient Boosting
+-> Linear Regression
 
 -> Neural Networks (MLP)
 
@@ -86,7 +92,7 @@ You can use the provided .arff or .csv files to import data and evaluate the mod
 - Run the Jupyter Notebook or Weka to train models and visualize predictions.
 
 ## Results
-- The project compares the performance of various models and provides insights into which algorithms can best predict stock market trends based on economic data. 
+- The project uses macroeconomic data to evaluate multiple models and predict future economic trends. We assess the performance of different machine learning algorithms based on metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared. 
 
 - Evaluation metrics such as MAE, MSE, and R-squared assess the model's performance.
 
